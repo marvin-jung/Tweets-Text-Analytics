@@ -1,5 +1,3 @@
-# Tweets-Text-Analytics
-
 # Tweets Text Analytics
 
 Jisung Jung
