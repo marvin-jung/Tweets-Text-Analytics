@@ -4,7 +4,7 @@ Jisung Jung
 
 Mauricio Teles who is famous as our guest speaker in the HULT MSBA class has a chance to join the digital marketing project in Nike Inc. This global sportswear company is setting up to release a new Air Max sneaker shoes on Mar. 1st. As Its executives want to increase sales and revenue in the new product, they let the project team prepare for a business insight report from social media and ask for building an advertising strategy targeted for the customers who enjoy listening to music from media streaming platforms and applications. Mauricio is excited that he can demonstrate his outstanding business analytics skills to the project team. In order to meet their request, he starts to use Twitter to bring text data, examines the biggest music streaming platform’s characteristics and interests dividing by Spotify, Apple Music, and YouTube Music, visualizes significant relationships among data afterward.
 
-`R Script` is available in this <a href="https://github.com/marvin-jung/Intel-Asia-Pacific-The-Catch-Win-Campaign/raw/main/excel/Linear-Programming-for-Intel-Asia-Campaign.xlsx">link</a>
+`R Script` is available in this <a href="https://github.com/marvin-jung/Tweets-Text-Analytics/raw/main/Music-streaming-services.R">link</a>
 
 ### I. Comparing the word frequencies
 
