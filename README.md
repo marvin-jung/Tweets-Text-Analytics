@@ -4,16 +4,14 @@ Jisung Jung
 
 Mauricio Teles who is famous as our guest speaker in the HULT MSBA class has a chance to join the digital marketing project in Nike Inc. This global sportswear company is setting up to release a new Air Max sneaker shoes on Mar. 1st. As Its executives want to increase sales and revenue in the new product, they let the project team prepare for a business insight report from social media and ask for building an advertising strategy targeted for the customers who enjoy listening to music from media streaming platforms and applications. Mauricio is excited that he can demonstrate his outstanding business analytics skills to the project team. In order to meet their request, he starts to use Twitter to bring text data, examines the biggest music streaming platform’s characteristics and interests dividing by Spotify, Apple Music, and YouTube Music, visualizes significant relationships among data afterward.
 
-`R Script` is available in this [link]() 
+`R Script` is available in this <a href="https://github.com/marvin-jung/Intel-Asia-Pacific-The-Catch-Win-Campaign/raw/main/excel/Linear-Programming-for-Intel-Asia-Campaign.xlsx">link</a>
 
 ### I. Comparing the word frequencies
 
 Thanks to `rtweet`, he can gather the Apple Music dataset with 518 observations, tagged keyword by #Apple #music, YouTube Music dataset with 3714 observations, tagged keyword by #YouTube #music, Spotify dataset with 5248 observations, tagged by #Spotify #music. He transforms those datasets into tidy text format by tokenizing, removing stop words, counting frequencies for tokens. In order to compare the word frequencies of Spotify, Apple Music, and YouTube Music, he binds the tidy dataset together, reshapes (spread and gather each the service and proportion) and plots the set of texts as shown in Figure 1.
 
-<figure>
 <img src="images/plot_zoom.png">
-<figcaption align="center"> Figure 1. Comparing the word frequencies of Spotify, Apple Music, and YouTube Music </figcaption>
-</figure>
+<p style="text-align: center;"> Figure 1. Comparing the word frequencies of Spotify, Apple Music, and YouTube Music</p>
 
 He can see some insights between the two graphs.
 
@@ -57,20 +55,14 @@ sample estimates:
 After comparing the word frequencies, Mauricio explores Relationships Between Words. He applies organizing tokens into pairs of two consecutive words, called “bigrams”. From a tidy object, each company’s network can be manipulated and be developed the most common word-to-word connection.
 Figure 2. ~ Figure 4. visualize the common bigrams in Music Streaming Services with some polishing, showing clusters of words.
 
-<figure>
 <img src="images/plot_Spotify.png">
-<figcaption align="center"> Figure 2. Network graph for common bigrams in Spotify </figcaption>
-</figure>
+<p style="text-align: center;"> Figure 2. Network graph for common bigrams in Spotify </p>
 
-<figure>
 <img src="images/plot_Apple.png">
-<figcaption align="center"> Figure 3. Network graph for common bigrams in Apple </figcaption>
-</figure>
+<p style="text-align: center;"> Figure 3. Network graph for common bigrams in Apple </p>
 
-<figure>
 <img src="images/plot_YouTube.png">
-<figcaption align="center"> Figure 4. Network graph for common bigrams in YouTube </figcaption>
-</figure>
+<p style="text-align: center;"> Figure 4. Network graph for common bigrams in YouTube </p>
 
 There are some findings from those network graphs.
 
